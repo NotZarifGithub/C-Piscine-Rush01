@@ -6,11 +6,18 @@
 /*   By: mabd-ram <mabd-ram@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/04 18:41:51 by mabd-ram          #+#    #+#             */
-/*   Updated: 2024/05/04 18:44:09 by mabd-ram         ###   ########.fr       */
+/*   Updated: 2024/05/05 18:05:31 by mabd-ram         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+void	displayError(void);
+
 int	main(int *argc, int **argv)
 {
-	
+	if (argc != 17)
+	{
+		displayError();
+		return (1i);
+	}
+	return (0);
 }

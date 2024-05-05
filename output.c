@@ -6,9 +6,13 @@
 /*   By: mabd-ram <mabd-ram@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/04 18:41:36 by mabd-ram          #+#    #+#             */
-/*   Updated: 2024/05/04 18:41:37 by mabd-ram         ###   ########.fr       */
+/*   Updated: 2024/05/05 18:07:11 by mabd-ram         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
 
-
+void	display_error(void)
+{
+	write(1, "Error\n", 6);
+}
